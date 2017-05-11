@@ -15,9 +15,9 @@ var match2 = customDictionary("llama"); // true
 var match3 = dictionary("uncontroversiall"); // false: no complete match
 var match4 = customDictionary("uncontroversially"); // false: no such word in custom dictionary
 
-// Search for partial match
-var match5 = dictionary("uncontroversially"); // true
-var match6 = dictionary("uncontroversiall"); // true
+// Search for partial match (add a "true" flag)
+var match5 = dictionary("uncontroversially", true); // true
+var match6 = dictionary("uncontroversiall", true); // true
 ```
 
 ## Dependencies
