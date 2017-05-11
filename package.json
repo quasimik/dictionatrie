@@ -1,6 +1,6 @@
 {
   "name": "dictionatrie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dictionary trie",
   "main": "index.js",
   "scripts": {
