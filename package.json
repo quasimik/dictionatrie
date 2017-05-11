@@ -12,7 +12,9 @@
   },
   "keywords": [
     "dictionary",
-    "trie"
+    "trie",
+    "search",
+    "find"
   ],
   "author": "Michael Liu",
   "license": "ISC",

@@ -1,5 +1,5 @@
 # dictionatrie
-Dictionary trie
+Build and search a minimalist dictionary trie
 
 ## Usage
 
