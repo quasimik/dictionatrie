@@ -1,0 +1,23 @@
+{
+  "name": "dictionatrie",
+  "version": "1.0.0",
+  "description": "Dictionary trie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quasimik/dictionatrie.git"
+  },
+  "keywords": [
+    "dictionary",
+    "trie"
+  ],
+  "author": "Michael Liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quasimik/dictionatrie/issues"
+  },
+  "homepage": "https://github.com/quasimik/dictionatrie#readme"
+}
