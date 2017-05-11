@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/quasimik/dictionatrie/issues"
   },
-  "homepage": "https://github.com/quasimik/dictionatrie#readme"
+  "homepage": "https://github.com/quasimik/dictionatrie#readme",
+  "dependencies": {
+    "word-list": "^2.0.0"
+  }
 }
