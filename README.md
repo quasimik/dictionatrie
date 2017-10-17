@@ -5,9 +5,9 @@ Build and search a minimalist dictionary trie
 
 ```javascript
 // Initialization
-const createDictionary = require("dictionatrie");
-const dictionary = createDictionary(); // defaults to a huge list of English words
-const customDictionary = createDictionary([ "cat", "dog", "llama" ]); // custom dictionary
+const Dictionary = require("dictionatrie");
+const dictionary = new Dictionary(); // defaults to words in Yet Another Word List (YAWL)
+const customDictionary = new Dictionary([ "cat", "dog", "llama" ]); // custom dictionary
 
 // Search for complete match
 var match1 = dictionary.has("uncontroversially"); // true
@@ -19,7 +19,3 @@ var match4 = customDictionary.has("uncontroversially"); // false: no such word i
 var match5 = dictionary.has("uncontroversially", true); // true
 var match6 = dictionary.has("uncontroversiall", true); // true
 ```
-
-## Dependencies
-
-`word-list` by sindresorhus: Used for the default word list.
