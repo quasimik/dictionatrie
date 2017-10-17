@@ -1,6 +1,6 @@
 {
   "name": "dictionatrie",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Build and search a minimalist dictionary trie",
   "main": "index.js",
   "scripts": {
