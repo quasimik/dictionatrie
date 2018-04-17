@@ -1,7 +1,7 @@
 "use strict";
 
 const fs = require("fs");
-const wordListPath = "./yawl.txt";
+const wordListPath = __dirname + "/yawl.txt";
 
 class Node {
   constructor(parent, boundary) {
@@ -14,12 +14,11 @@ class Node {
 class Dictionary {
 
   constructor(words_param) {
+    this.rootNode = new Node();
     var words = words_param || fs.readFileSync(wordListPath, "utf8").split("\n");
-    var self = this;
-    self.rootNode = new Node();
-    words.forEach(function(word) {
-      self.insertWord(word, self.rootNode);
-    });
+    for (var i = 0; i < words.length; i++) {
+      this.insertWord(words[i], this.rootNode);
+    };
   }
 
   insertWord(wordFragment, node) {
